@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mini Web OS</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="desktop">
+    <div class="window" id="window1">
+      <div class="title-bar">
+        <span>Notepad</span>
+        <button onclick="closeWindow('window1')">X</button>
+      </div>
+      <div class="window-content">
+        <textarea rows="10" cols="30">Type here...</textarea>
+      </div>
+    </div>
+    <button onclick="openWindow('window1')" class="taskbar-btn">Open Notepad</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
